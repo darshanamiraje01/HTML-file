@@ -1,4 +1,10 @@
-This is a sample test webhook file.
+function calculateTotal(items) {
+  let total = 0
+  for (var i = 0; i <= items.length; i++) {
+    total = total + items[i].price
+  }
+  return total
+}
 
-
-This is the second testing of webhook file for job queue.
+const user = null
+console.log(user.name)
