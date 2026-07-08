@@ -9,3 +9,6 @@ function calculateTotal(items) {
 
 const user = null
 console.log(user.name)
+
+
+// Chacking the BullMQ worker processing
