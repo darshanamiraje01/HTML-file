@@ -1,0 +1,14 @@
+//Simple edit to check working of gemini new version
+function calculateTotal(items) {
+  let total = 0
+  for (var i = 0; i <= items.length; i++) {
+    total = total + items[i].price
+  }
+  return total
+}
+
+const user = null
+console.log(user.name)
+
+
+// Chacking the BullMQ worker processing
